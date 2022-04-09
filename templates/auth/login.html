@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login-style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}">
+    <title>Login | bPanel</title>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div method="post" class="login-box-main login-box">
+            <h2 class="h2-LOGIN">Login {{err}}</h2>
+
+            <form method="POST">
+                <div style="padding-left: 7%;">
+                    <input name="username" id="username" class="input" placeholder="Username ">
+                    <br>
+                    <input name="password" id="password" class="input" type="password" placeholder="Password">
+                    <br>
+                </div>
+                <input value="Login" type="submit" id="loginBTN" style="height: 50px; width: 170px;" class="button-LOGIN">
+            </form>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
