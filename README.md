@@ -1,7 +1,7 @@
-"# bPanel" 
+# bPanel
 
 The best Web Panel!
 
-"# USAGE"
+# USAGE
 
 start the "start.bat" (on linux "start.sh") and open http://localhost 
